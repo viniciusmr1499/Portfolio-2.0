@@ -25,12 +25,12 @@ const GlobalStyle = createGlobalStyle`
     body, html, #root {
         height: 100%;
         -webkit-font-smoothing: antialiased;
-        padding-top:1.7rem;
+        padding-top:1.3rem;
     }
 
     body {
         line-height: 1;
-        background: #1d1c22;
+        background: #1e2327;
         color: #fff;
     }
 

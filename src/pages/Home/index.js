@@ -1,8 +1,11 @@
 import React from 'react';
-import profile from './../../assets/Logo.png';
+import Avatar from './../../assets/Euu.jpg';
+import profile from './../../assets/Logo-transparente.png';
+// import Avatar from './../../assets/me.jpg';
 import MyCard from './components/MyCard';
 import NavList from './components/NavList';
 import { Container, Header, NavBar } from './styles';
+
 
 export default function Home() {
 
@@ -18,8 +21,9 @@ export default function Home() {
             </Header>
 
             <Container>
-                <MyCard />
+                <MyCard title="Marcos Vinicius" subTitle="Software Developer" avatar={Avatar} />
             </Container>
+
         </>
     );
 }
