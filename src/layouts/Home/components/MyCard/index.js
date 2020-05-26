@@ -7,12 +7,14 @@ export default function MyCard({ title, subTitle, avatar }) {
         <>
             <Card>
                 <div className="banner">
-                    <div className="circle-riple"></div>
-                    <img src={avatar} className="profile" alt="Profile" />
+                    <div className="wrapper">
+                        <div className="circle-riple"></div>
+                        <img src={avatar} className="profile" alt="Profile" />
+                    </div>
                     <h1>{title}</h1>
                     <h3>
                         {subTitle}
-                        <FaRocket size={24} color="#41c2fb" />
+                        <FaRocket size={24} color="#DEE19B" />
                     </h3>
                     <ul>
                         <li>

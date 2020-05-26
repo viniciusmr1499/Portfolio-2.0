@@ -1,6 +1,9 @@
 import React from 'react';
-import Avatar from './../../assets/Euu.jpg';
-import profile from './../../assets/Logo-transparente.png';
+import { FaConnectdevelop } from 'react-icons/fa';
+// import Avatar from './../../assets/Euu.jpg';
+import Avatar from './../../assets/Profile.jpg';
+// import Avatar from './../../assets/Lara.jpg';
+// import profile from './../../assets/Logo-transparente.png';
 // import Avatar from './../../assets/me.jpg';
 import MyCard from './components/MyCard';
 import NavList from './components/NavList';
@@ -13,8 +16,9 @@ export default function Home() {
         <>
             <Header>
                 <NavBar>
-                    <a href="#">
-                        <img src={profile} className="logo" alt="Logo" />
+                    <a href="/" className="logo">
+                        Vinícius
+                        <FaConnectdevelop size={34} />
                     </a>
                     <NavList />
                 </NavBar>
@@ -23,7 +27,6 @@ export default function Home() {
             <Container>
                 <MyCard title="Marcos Vinicius" subTitle="Software Developer" avatar={Avatar} />
             </Container>
-
         </>
     );
 }

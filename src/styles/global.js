@@ -22,15 +22,27 @@ const GlobalStyle = createGlobalStyle`
         vertical-align: baseline;
     }
 
+    body::-webkit-scrollbar {
+        width: .6em;
+    }
+    body::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: #1CB698;
+        outline: 1px solid slategrey;
+    }
+
     body, html, #root {
         height: 100%;
         -webkit-font-smoothing: antialiased;
-        padding-top:1.3rem;
+        scroll-behavior: smooth;
     }
 
     body {
         line-height: 1;
-        background: #1e2327;
+        background: #1E2326;
         color: #fff;
     }
 
