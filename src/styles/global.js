@@ -23,15 +23,16 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body::-webkit-scrollbar {
-        width: .6em;
+        width: .6em !important;
     }
+
     body::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
     }
 
     body::-webkit-scrollbar-thumb {
-        background-color: #1CB698;
-        outline: 1px solid slategrey;
+        background-color: #1CB698 !important;
+        outline: 1px solid slategrey !important;
     }
 
     body, html, #root {

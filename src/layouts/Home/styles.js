@@ -47,10 +47,6 @@ export const NavBar = styled.nav`
     /* background: #1e2326;
     box-shadow: 0 0 20px rgba(0,0,0,.2); */
 
-    img.logo {
-        height: 30px;
-    }
-
     a.logo{
         display: flex;
         align-items: center;
@@ -64,10 +60,6 @@ export const NavBar = styled.nav`
         svg {
             animation: ${effect} 2.5s alternate-reverse infinite;
             margin-left: .3rem;
-
-            &:hover {
-                filter: grayscale(0);
-            }
         }
     }
 `;
@@ -80,7 +72,6 @@ export const Container = styled.section`
     width: 100%;
     height: 700px;
     box-sizing: border-box;
-    /* background: linear-gradient(130deg, #1e2326 15%,rgba(0,0,0,.9),rgba(0,0,0,.7) ,rgba(0,0,0,.9),rgba(0,0,0,.5)), url(${banner}); */
     background-image: url(${banner});
     background-repeat: no-repeat;
     background-size: cover;
