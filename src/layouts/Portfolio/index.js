@@ -28,7 +28,7 @@ export default function Portfolio() {
                         <figcaption>
                             <FaSearch color="#fff" size={24} />
                             <h5 className="title">Página de adesão Mastercard</h5>
-                            <span class="sub-title">Fortbrasil</span>
+                            <span className="sub-title">Fortbrasil</span>
                             <a href="#"></a>
                         </figcaption>
                     </PortfolioCard>
@@ -38,7 +38,7 @@ export default function Portfolio() {
                         <figcaption>
                             <FaSearch color="#fff" size={24} />
                             <h5 className="title">Title</h5>
-                            <span class="sub-title">subtitle</span>
+                            <span className="sub-title">subtitle</span>
                             <a href="#"></a>
                         </figcaption>
                     </PortfolioCard>
@@ -48,7 +48,7 @@ export default function Portfolio() {
                         <figcaption>
                             <FaSearch color="#fff" size={24} />
                             <h5 className="title">Title</h5>
-                            <span class="sub-title">subtitle</span>
+                            <span className="sub-title">subtitle</span>
                             <a href="#"></a>
                         </figcaption>
                     </PortfolioCard>

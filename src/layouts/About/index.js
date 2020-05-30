@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBook, FaCar, FaCoffee, FaDev, FaDownload, FaGamepad, FaLinux, FaMoneyBillAlt, FaMusic, FaTheaterMasks } from 'react-icons/fa';
+import { FaBook, FaCoffee, FaDev, FaDownload, FaGamepad, FaJs, FaLinux, FaMoneyBillAlt, FaMusic, FaTheaterMasks } from 'react-icons/fa';
 import HeaderSection from './../../reusable/HeaderSection';
 import { AboutSection, ListDetails, ListMyInterests } from './styles';
 
@@ -77,8 +77,8 @@ export default function About() {
                     <span>Café</span>
                 </li>
                 <li className="interests__item">
-                    <FaCar size={30} />
-                    <span>Carros</span>
+                    <FaJs size={30} />
+                    <span>JS</span>
                 </li>
                 <li className="interests__item">
                     <FaMoneyBillAlt size={30} />

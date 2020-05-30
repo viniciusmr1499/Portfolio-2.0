@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaGooglePlusG, FaInstagram, FaLinkedin, FaRocket } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaRocket, FaTwitter } from 'react-icons/fa';
 import { Anchor, Card } from './styles';
 
 export default function MyCard({ title, subTitle, avatar }) {
@@ -33,8 +33,8 @@ export default function MyCard({ title, subTitle, avatar }) {
                             </Anchor>
                         </li>
                         <li>
-                            <Anchor link="https://mail.google.com/mail/u/0/#inbox">
-                                <FaGooglePlusG size={22} color="#fff" />
+                            <Anchor link="https://twitter.com/Vinicius_1499">
+                                <FaTwitter size={22} color="#fff" />
                             </Anchor>
                         </li>
                     </ul>

@@ -41,7 +41,7 @@ export const Education = styled.div`
 
             .c-education {
                 position: relative;
-                width: 500px;
+                width: 522px;
                 padding: 25px;
                 background: #252A2E;
                 box-shadow: 0px 18px 18px 0 rgba(0, 0, 0, 0.2);
