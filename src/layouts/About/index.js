@@ -1,18 +1,12 @@
 import React from 'react';
 import { FaBook, FaCar, FaCoffee, FaDev, FaDownload, FaGamepad, FaLinux, FaMoneyBillAlt, FaMusic, FaTheaterMasks } from 'react-icons/fa';
+import HeaderSection from './../../reusable/HeaderSection';
 import { AboutSection, ListDetails, ListMyInterests } from './styles';
 
 export default function About() {
-
     return (
-        <AboutSection>
-            <div>
-                <FaDev size={34} />
-            </div>
-
-            <h1>
-                Sobre mim
-            </h1>
+        <AboutSection id="about">
+            <HeaderSection content="Sobre mim" icon={<FaDev size={34} />} />
 
             <p className="description">
                 <span>Olá, eu me chamo Marcos Vinicius.</span> Você pode me ver do jeito que quiser,
@@ -27,7 +21,6 @@ export default function About() {
                     <h4 className="detail__title">Data de <br /> Nascimento</h4>
                     <p className="response_details">
                         14-01-1999 (21 anos)
-                        {/* Lembrar de pegar a idade através de um function */}
                     </p>
                 </li>
                 <li>
@@ -92,12 +85,14 @@ export default function About() {
                     <span>Dinheiro</span>
                 </li>
             </ListMyInterests>
+
             <div className="curriculum">
                 <a href="#" className="cv">
                     Baixar CV
                     <FaDownload size={16} />
                 </a>
             </div>
+
         </AboutSection>
     );
 }

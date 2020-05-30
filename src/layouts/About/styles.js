@@ -1,74 +1,25 @@
 import styled from 'styled-components';
 
-export const AboutSection = styled.section.attrs(props => ({
-    id: '#about',
-}))`
+export const AboutSection = styled.section`
     position: relative;
     padding-top: 3rem;
+    padding-bottom: 2rem;
     max-width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: (repeat(4,1fr));
 
-
-    div {
-        background: #252A2E;
-        box-shadow: 0 0 30px rgba(0,0,0,.2);
-        border-radius: 5px;
-        width: 60px;
-        height: auto;
-        padding: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 1.7rem auto 1rem auto;
-        grid-column: 1/3;
-    }
-
-    h1 {
-        position: relative;
-        font-family: 'Righteous', cursive;
-        color: #FFF;
-        font-size: 48px;
-        line-height: 50px;
-        text-align: center;
-        padding-bottom: 20px;
-        position: relative;
-        display: table;
-        margin: 0 auto 30px auto;
-        grid-column: 1/3;
-
-        &:after{
-            content: "";
-            position: absolute;
-            border-bottom: 1px solid #1CB698;
-            width: 40px;
-            bottom: 0;
-            left: 0;
-            margin: 0 auto;
-            display: table;
-        }
-
-        &:before{
-            position: absolute;
-            content: "";
-            border-bottom: 1px solid #1CB698;
-            width: 80px;
-            bottom: 8px;
-            left: 0;
-            margin: 0 auto;
-        }
-    }
-
     .description {
         text-align: justify;
         font-family: "Work Sans", sans-serif;
         font-size: 16px;
-        letter-spacing: .05rem;
+        line-height: 25px;
+        letter-spacing: .03rem;
         font-weight: 400;
         padding-bottom: 3rem;
         grid-column: 1/3;
+        color: #eee;
 
         span {
             font-family: "Work Sans", sans-serif;
@@ -102,10 +53,14 @@ export const AboutSection = styled.section.attrs(props => ({
     }
 
     .curriculum {
+        grid-column: 1/3;
         position: relative;
         width: 100%;
-        background: transparent;
-        box-shadow: none;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
 
         a.cv:hover, a.cv:focus, a.cv:active {
             color: #FFF;
@@ -200,7 +155,7 @@ export const ListDetails = styled.ul`
 
         .response_details {
             font-weight: 400;
-            color: #eee;
+            color: rgb(196,197,198);
         }
 
         .dev {
@@ -208,6 +163,10 @@ export const ListDetails = styled.ul`
             padding: 2px 8px;
             border-radius: 5px;
             font-weight: 600;
+        }
+
+        &:last-child .response_details {
+            color: #eee;
         }
     }
 

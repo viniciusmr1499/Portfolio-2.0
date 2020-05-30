@@ -24,7 +24,7 @@ export default function Home() {
                 </NavBar>
             </Header>
 
-            <Container>
+            <Container id="home">
                 <MyCard title="Marcos Vinicius" subTitle="Software Developer" avatar={Avatar} />
             </Container>
         </>

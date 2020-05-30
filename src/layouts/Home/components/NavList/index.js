@@ -5,7 +5,7 @@ export default function NavList() {
     return (
         <List>
             <li>
-                <a className="nav-link" data-hover="Início" href="#">
+                <a className="nav-link" data-hover="Início" href="#home">
                     Início
                 </a>
             </li>
@@ -15,22 +15,22 @@ export default function NavList() {
                 </a>
             </li>
             <li>
-                <a className="nav-link" data-hover="Habilidades" href="#Habilidades">
+                <a className="nav-link" data-hover="Habilidades" href="#skills">
                     Habilidades
                 </a>
             </li>
             <li>
-                <a className="nav-link" data-hover="Resumo" href="#Resumo">
+                <a className="nav-link" data-hover="Resumo" href="#resume">
                     Resumo
                 </a>
             </li>
             <li>
-                <a className="nav-link" data-hover="Portfólio" href="#Portfólio">
+                <a className="nav-link" data-hover="Portfólio" href="#portfolio">
                     Portfólio
                 </a>
             </li>
             <li>
-                <a className="nav-link" data-hover="Contato" href="#Contato">
+                <a className="nav-link" data-hover="Contato" href="#contact">
                     Contato
                 </a>
             </li>
