@@ -10,7 +10,6 @@ export default function Contact() {
         <>
             <Container id="contact">
                 <HeaderSection content="Contate-me" icon={<FaEnvelope color="#fff" size={34} />} />
-
                 <Form />
             </Container>
         </>

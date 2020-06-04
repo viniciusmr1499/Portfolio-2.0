@@ -5,7 +5,7 @@ export const Container = styled.section`
     position: relative;
     width: inherit;
     background-color: #252A2E;
-    padding-top: 1.2rem;
+    padding-top: 3rem;
 
     .c-skills__wrapper {
         display: grid;

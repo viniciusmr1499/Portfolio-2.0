@@ -33,6 +33,13 @@ export const Title = styled.h1`
         left: 0;
         margin: 0 auto;
     }
+
+    /* mobile  */
+    @media screen and (max-width: 576px) {
+        grid-column: 1;
+        font-size: 34px;
+        line-height: 40px;
+    }
 `;
 
 export const TopSection = styled.span`
@@ -47,4 +54,10 @@ export const TopSection = styled.span`
     justify-content: center;
     margin: 1.7rem auto 1rem auto;
     grid-column: 1/3;
+
+     /* mobile  */
+     @media screen and (max-width: 576px) {
+        grid-column: 1;
+        margin: 1.5rem auto 1rem auto;
+    }
 `;

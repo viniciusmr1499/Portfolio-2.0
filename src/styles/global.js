@@ -39,6 +39,7 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         -webkit-font-smoothing: antialiased;
         scroll-behavior: smooth;
+        padding-top: 1.6rem;
     }
 
     body {

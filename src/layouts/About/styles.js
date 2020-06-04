@@ -131,6 +131,37 @@ export const AboutSection = styled.section`
             padding-left: .2rem;
         }
     }
+
+    /* mobile  */
+    @media screen and (max-width: 576px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: (repeat(4,1fr));
+        max-width: 90%;
+
+        .description {
+            grid-column: 1;
+            width: 100%;
+        }
+
+        h2.title__details { font-size: 24px; line-height: 26px; }
+
+        h2.title__myInterests {
+            grid-column: 1;
+            grid-row: auto;
+        }
+
+        .curriculum {
+            grid-column: 1;
+            padding-top: 0;
+        }
+
+        a.cv {
+            grid-column: 1;
+            grid-row: auto;
+
+        }
+
+    }
 `;
 
 export const ListDetails = styled.ul`
@@ -170,6 +201,12 @@ export const ListDetails = styled.ul`
         }
     }
 
+     /* mobile  */
+     @media screen and (max-width: 576px) {
+        grid-column: 1;
+        max-width: 100%;
+    }
+
 `;
 
 export const ListMyInterests = styled.ul`
@@ -201,6 +238,18 @@ export const ListMyInterests = styled.ul`
             font-weight: 500;
             margin-top: 8px;
             display: block;
+        }
+    }
+
+    /* mobile  */
+    @media screen and (max-width: 576px) {
+        grid-column: 1;
+        grid-row: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1rem;
+
+        .interests__item {
+            width: 100%;
         }
     }
 

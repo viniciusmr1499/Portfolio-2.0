@@ -37,8 +37,30 @@ export const List = styled.ul`
         }
     }
 
-    /* Mobile */
-    @media screen and (max-width:768px){
-        display: none
+    /* laptop and notbooks */
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        transform: translate(0%);
+
+        li {
+            padding: 0 .55rem;
+        }
+    }
+
+
+    /* Mobile and tablet */
+    @media screen and (max-width:768px) {
+        margin-top: 0.4rem;
+        flex-direction: column;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateX(0%);
+
+        li {
+            position: relative;
+            padding: .4rem 1.5rem;
+            border-bottom: 1px solid rgba(0,0,0,.2);
+        }
     }
 `;

@@ -10,6 +10,16 @@ const circle = keyframes`
 
 `;
 
+const circleMobile = keyframes`
+    0% {
+        box-shadow: 0 0 0 0 rgba(28, 182, 152, 0.2),  0 0 0 1em rgba(28, 182, 152, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 1em rgba(28, 182, 152, 0.2),0 0 0 4em rgba(28, 182, 152, 0);
+  }
+
+`;
+
 const faded = keyframes`
     0% {
         transform: translateY(-100%);
@@ -136,6 +146,74 @@ export const Card = styled.div`
 
         &:active {
             background: #3498db;
+        }
+    }
+
+    /* tablet and laptop */
+    @media screen and (min-width: 577px) and (max-width:1024px) {
+
+        .banner {
+            width: 380px;
+        }
+
+        .profile {
+            height: 290px;
+            width: 290px;
+        }
+    }
+
+    /* mobile  */
+    @media screen and (max-width: 576px) {
+        transform: translateY(-15%);
+
+        &:hover {
+            transform: scale(1) translateY(-15%);
+        }
+
+        .banner {
+            width: 260px;
+            height: auto;
+            padding-bottom: 0;
+        }
+
+        .circle-riple {
+            animation-name: ${circleMobile};
+            transform: translateY(-45%);
+        }
+
+        .profile {
+            height: 220px;
+            width: 220px;
+            margin-bottom: 0;
+        }
+
+        h1 {
+            font-size: 32px;
+            line-height: 42px;
+        }
+
+        h3 {
+            font-size: 15px;
+            line-height: 24px;
+        }
+
+        ul {
+            margin: 1.5rem 0;
+        }
+
+        li {
+            height: 36px;
+            width: 36px;
+            margin: 0 .15rem;
+
+            a {
+                height: 100%;
+                width: 100%;
+
+                svg {
+                    height: 16px;
+                }
+            }
         }
     }
 
