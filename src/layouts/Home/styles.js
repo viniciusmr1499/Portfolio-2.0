@@ -72,7 +72,7 @@ export const NavBar = styled.nav`
         }
 
         .collapse-nav {
-            transition: .05s width left;
+            transition: .05s transform;
             position: absolute;
             width: 180px;
             top: 100%;
@@ -83,13 +83,15 @@ export const NavBar = styled.nav`
             transform-origin: top;
             border: .5px solid #1CB698;
             opacity: 0;
+            transform: translateY(-200%);
         }
 
         /* toggled  */
         .collapse-nav.toggled {
             transition: .25s all;
-            transform: translate(0);
+            transform: translate(0%);
             opacity:1;
+            transform-origin: top;
         }
     }
 

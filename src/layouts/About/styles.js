@@ -132,6 +132,27 @@ export const AboutSection = styled.section`
         }
     }
 
+    /* tablet  */
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+
+        .description {
+            padding-bottom: 2rem;
+            grid-column: 1/3;
+        }
+
+        h2.title__details {
+            grid-column: 1/3;
+            margin-bottom: 25px;
+            grid-row: 4;
+        }
+
+        h2.title__myInterests {
+            grid-row: 6;
+            grid-column: 1/3;
+            margin-top: 2rem;
+        }
+    }
+
     /* mobile  */
     @media screen and (max-width: 576px) {
         grid-template-columns: 1fr;
@@ -148,6 +169,7 @@ export const AboutSection = styled.section`
         h2.title__myInterests {
             grid-column: 1;
             grid-row: auto;
+            margin-top: 2rem;
         }
 
         .curriculum {
@@ -201,6 +223,13 @@ export const ListDetails = styled.ul`
         }
     }
 
+    /* tablet */
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+        max-width: 100%;
+        grid-column: 1/3;
+        grid-row: 5;
+    }
+
      /* mobile  */
      @media screen and (max-width: 576px) {
         grid-column: 1;
@@ -240,6 +269,18 @@ export const ListMyInterests = styled.ul`
             display: block;
         }
     }
+
+    /* tablet  */
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+        grid-column: 1/3;
+        grid-column-gap: 1rem;
+        grid-row: 7;
+
+        .interests__item {
+            width: 100%;
+        }
+    }
+
 
     /* mobile  */
     @media screen and (max-width: 576px) {

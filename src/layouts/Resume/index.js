@@ -15,7 +15,7 @@ export default function Resume() {
                         <div className="c-card-education">
                             <div className="c-education">
                                 <h3 className="c-education__title">
-                                    Análise e Desenvolvimento de sistemas
+                                    Análise <span style={{ textTransform: 'lowercase' }}>e</span> Desenvolvimento de sistemas
                                     <span className="c-education__subTitle"> Faculdade Tecnológica do nordeste</span>
                                 </h3>
                                 <span className="c-education__time">2017-2020</span>
