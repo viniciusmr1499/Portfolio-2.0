@@ -132,6 +132,21 @@ export const AboutSection = styled.section`
         }
     }
 
+    /* notbook  */
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        h2.title__details {
+            grid-column: 1/3;
+            margin-bottom: 25px;
+            grid-row: 4;
+        }
+
+        h2.title__myInterests {
+            grid-row: 6;
+            grid-column: 1/3;
+            margin-top: 2rem;
+        }
+    }
+
     /* tablet  */
     @media screen and (min-width: 577px) and (max-width: 768px) {
 
@@ -223,6 +238,16 @@ export const ListDetails = styled.ul`
         }
     }
 
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        max-width: 90%;
+    }
+
+    /* laptop and notbook  */
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        max-width: 100%;
+        grid-column: 1/3;
+        grid-row: 5;
+    }
     /* tablet */
     @media screen and (min-width: 577px) and (max-width: 768px) {
         max-width: 100%;
@@ -270,6 +295,22 @@ export const ListMyInterests = styled.ul`
         }
     }
 
+    /* adjust  */
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        grid-column-gap: .6rem;
+    }
+
+    /* laptop and notbook  */
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        grid-column: 1/3;
+        grid-column-gap: 1rem;
+        grid-row: 7;
+
+        .interests__item {
+            width: 100%;
+        }
+    }
+
     /* tablet  */
     @media screen and (min-width: 577px) and (max-width: 768px) {
         grid-column: 1/3;
@@ -281,9 +322,20 @@ export const ListMyInterests = styled.ul`
         }
     }
 
+    /* mobile display large  */
+    @media screen and (min-width: 426px) and (max-width: 576px) {
+        grid-column: 1;
+        grid-row: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 1rem;
+
+        .interests__item {
+            width: 100%;
+        }
+    }
 
     /* mobile  */
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 425px) {
         grid-column: 1;
         grid-row: auto;
         grid-template-columns: repeat(2, 1fr);

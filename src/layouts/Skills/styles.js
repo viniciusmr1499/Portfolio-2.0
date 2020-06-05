@@ -16,6 +16,44 @@ export const Container = styled.section`
         grid-template-columns: .07fr repeat(2,1fr) .07fr ;
         grid-column-gap: 6rem;
     }
+
+    /* notbooks  */
+    @media screen and (min-width: 768px) and (max-width: 922px) {
+        .c-skills__wrapper {
+            grid-template-areas:
+                "techSkills profSkills"
+            ;
+            grid-template-columns: 1fr;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+    /* tablet  */
+    @media screen and (max-width: 767px) {
+        .c-skills__wrapper {
+            grid-template-areas:
+                "techSkills"
+                "profSkills"
+            ;
+            grid-template-columns: 1fr;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    /* mobile */
+    @media screen and (max-width: 576px){
+        .c-skills__wrapper {
+            grid-template-areas:
+                "techSkills"
+                "profSkills"
+            ;
+            grid-template-columns: 1fr;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
 `;
 
 export const GroupSkills = styled.div`
@@ -42,6 +80,21 @@ export const GroupSkills = styled.div`
             text-transform: capitalize;
             color: rgb(196,197,198);
             padding: 1rem 0;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        h2 {
+            font-size: 24px;
+            line-height: 26px;
+        }
+    }
+
+    /* mobile  */
+    @media screen and (max-width: 767px){
+        h2 {
+            font-size: 24px;
+            line-height: 26px;
         }
     }
 
@@ -119,6 +172,22 @@ export const ProfessionalSkills = styled.div`
             text-transform: capitalize;
             color: rgb(196,197,198);
             padding: 1rem 0;
+        }
+    }
+
+    /* tablet and notbook */
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        h2 {
+            font-size: 24px;
+            line-height: 26px;
+        }
+    }
+
+    /* mobile  */
+    @media screen and (max-width: 767px){
+        h2 {
+            font-size: 23px;
+            line-height: 26px;
         }
     }
 `;

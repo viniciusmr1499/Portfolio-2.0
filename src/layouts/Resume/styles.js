@@ -22,6 +22,20 @@ export const Container = styled.section`
         font-weight: 400;
         text-align: center;
     }
+
+    /* mobile  */
+    @media screen and (max-width: 576px) {
+        max-width: 90%;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+
+        h2.c-resume__title {
+            font-size: 24px;
+            line-height: 26px;
+            margin-bottom: 15px;
+        }
+    }
+
 `;
 
 export const Education = styled.div`
@@ -108,6 +122,39 @@ export const Education = styled.div`
                     }
                 }
             }
+        }
+    }
+
+    /* mobile  */
+    @media screen and (max-width: 576px) {
+        .wrapper .c-card-education .c-education h3.c-education__title {
+            font-size: 18px;
+            line-height: 20px;
+        }
+
+        .wrapper {
+            width: 100%;
+
+            .c-card-education {
+                width: 100%;
+                padding-right: 30px;
+
+                .c-education {
+                    width: 100%;
+                }
+            }
+        }
+
+        .wrapper .c-card-education .c-education:before {
+            width: 10px;
+            height: 10px;
+            right: -39px;
+        }
+
+        .wrapper .c-card-education .c-education:after {
+            width: 30px;
+            height: 2px;
+            right: -30px;
         }
     }
 
@@ -199,6 +246,37 @@ export const WorkExperience = styled.div`
                     }
                 }
             }
+        }
+    }
+
+    /* mobile  */
+    @media screen and (max-width: 576px) {
+        .wrapper .c-card-work .c-work h3.c-work__title {
+            font-size: 18px;
+            line-height: 20px;
+        }
+       .wrapper {
+            width: 100%;
+
+            .c-card-work {
+                width: 100%;
+
+                .c-work {
+                    width: 100%;
+                }
+            }
+        }
+
+        .wrapper .c-card-work .c-work:before {
+            width: 12px;
+            height: 12px;
+            left: -45px;
+        }
+
+        .wrapper .c-card-work .c-work:after {
+            width: 30px;
+            height: 2px;
+            left: -30px;
         }
     }
 `;
