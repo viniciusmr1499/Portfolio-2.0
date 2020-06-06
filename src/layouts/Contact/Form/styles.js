@@ -73,6 +73,49 @@ export const Container = styled.div`
         }
     }
 
+    /* laptop */
+    @media (min-width: 769px) and (max-width: 992px) {
+        width: 80%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 2.3rem 0;
+
+        .c-location {
+            grid-column: 1;
+            grid-row: 2;
+
+            .google-info .list {
+                width: max-content;
+            }
+        }
+    }
+
+    /* tablet  */
+    @media (max-width: 768px) {
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 2.3rem 0;
+
+        .c-location {
+            grid-column: 1;
+            grid-row: 2;
+
+            .google-info .list {
+                width: max-content;
+            }
+        }
+    }
+
+
+    /* mobile  */
+    @media (max-width: 425px) {
+        .c-location .google-info .list {
+            width: 100%;
+            margin: 0 1rem;
+        }
+    }
+
 `;
 
 
@@ -196,6 +239,11 @@ export const FormContact = styled.form.attrs(props => ({
         svg {
             transform: translate(25%,12%);
         }
+    }
+
+    /* mobile  and tablet */
+    @media screen and (max-width: 768px) {
+        grid-column: 1;
     }
 
 `;
