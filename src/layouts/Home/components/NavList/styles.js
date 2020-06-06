@@ -37,6 +37,11 @@ export const List = styled.ul`
         }
     }
 
+    /* and adjuste  */
+    @media screen and (min-width: 1025px) and (max-width: 1150px) {
+        transform: translate(0%);
+    }
+
     /* laptop and notbooks */
     @media screen and (min-width: 769px) and (max-width: 1024px) {
         transform: translate(0%);

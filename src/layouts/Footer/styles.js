@@ -74,4 +74,10 @@ export const SiteFooter = styled.footer`
             }
         }
     }
+
+    /* mobile  */
+    @media screen and (max-width: 576px) {
+        padding-right: .45rem;
+        padding-left: .45rem;
+    }
 `;
