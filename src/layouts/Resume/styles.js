@@ -8,6 +8,7 @@ export const Container = styled.section`
     max-width: 80%;
     margin: 0 auto;
     grid-column-gap: 1.85rem;
+    justify-items: center;
 
     h2.c-resume__title {
         grid-column: 1 / 3;
@@ -23,8 +24,25 @@ export const Container = styled.section`
         text-align: center;
     }
 
+    /* @media screen and (max-width: 1200px) and (max-width: 1350px) {
+        width: 100%;
+    } */
+
+    @media screen and (max-width: 992px) {
+        max-width: 80%;
+    }
+
+    /* laptop */
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        h2.c-resume__title {
+            font-size: 24px;
+            line-height: 26px;
+            margin-bottom: 15px;
+        }
+    }
+
     /* mobile  */
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 768px) {
         max-width: 90%;
         grid-template-columns: 1fr;
         margin: 0 auto;
@@ -125,8 +143,53 @@ export const Education = styled.div`
         }
     }
 
-    /* mobile  */
-    @media screen and (max-width: 576px) {
+    /* laptop */
+    @media screen and (min-width: 769px) and (max-width: 1200px) {
+
+        .wrapper {
+            width: 100%;
+        }
+
+        .wrapper .c-card-education {
+            width: 100%;
+            height: 100%;
+
+            .c-education {
+                width: 100%;
+
+                h3.c-education__title {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    /* mobile  and tablet */
+    @media screen and (max-width: 992px) {
+        grid-column: 1/3;
+
+        .wrapper .c-card-education .c-education h3.c-education__title {
+            font-size: 18px;
+            line-height: 20px;
+        }
+       .wrapper {
+            width: 100%;
+
+            .c-card-education {
+                width: 100%;
+
+                .c-education {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    /* mobile  and tablet */
+    @media screen and (max-width: 768px) {
+        grid-column: 1/3;
+
         .wrapper .c-card-education .c-education h3.c-education__title {
             font-size: 18px;
             line-height: 20px;
@@ -249,8 +312,38 @@ export const WorkExperience = styled.div`
         }
     }
 
-    /* mobile  */
-    @media screen and (max-width: 576px) {
+    /* @media screen and (max-width: 900px) {
+        .wrapper .c-card-work .c-work {
+            height: max-content;
+        }
+    } */
+
+    /* laptop */
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        .wrapper {
+            width: 100%;
+        }
+
+        .wrapper .c-card-work {
+            width: 100%;
+
+
+            .c-work {
+                width: 100%;
+                height: max-content;
+
+                h3.c-work__title {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    /* mobile  and tablet */
+    @media screen and (max-width: 992px) {
+        grid-column: 1/3;
+
         .wrapper .c-card-work .c-work h3.c-work__title {
             font-size: 18px;
             line-height: 20px;
