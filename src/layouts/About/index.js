@@ -9,10 +9,13 @@ export default function About() {
             <HeaderSection content="Sobre mim" icon={<FaDev size={34} />} />
 
             <p className="description">
-                <span>Olá, eu me chamo Marcos Vinicius.</span> Você pode me ver do jeito que quiser,
-                mas só eu posso te mostrar quem realmente sou. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Maecenas quis ornare purus. Morbi luctus tortor nunc, vitae posuere
-                nibh malesuada sed. In nec tortor eu nibh
+                <span>Olá, eu me chamo Marcos Vinicius.</span> Sou um entusiasta da tecnologia,
+                busco sempre conhecimento através de cursos, artigos, livros e vídeos.
+                Meu Objetivo é está inserido em projetos de grande porte, poder colaborar com toda a equipe
+                de desenvolvimento, compartilhar conhecimento, acertar, errar, adquirir experiência e principalmente
+                impactar positivamente na vida das pessoas. Sou uma pessoa responsável, companheiro, simpático,
+                sou bem flexível, gosto de ir ao cinema, praia, viajar e conhecer pessoas novas.
+                Meus principais valores são, ética, foco no resultado, família e perenidade.
             </p>
 
             <h2 className="title__details">Detalhes Pessoais</h2>
