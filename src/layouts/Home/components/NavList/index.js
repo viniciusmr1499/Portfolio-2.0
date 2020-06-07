@@ -6,7 +6,7 @@ export default function NavList() {
         <div className="collapse-nav">
             <List>
                 <li>
-                    <a className="nav-link" data-hover="Início" href="#root">
+                    <a className="nav-link" data-hover="Início" href="#home">
                         Início
                     </a>
                 </li>

@@ -172,7 +172,7 @@ export const Container = styled.section`
 
         .c-portfolio {
             width: 90%;
-            grid-gap: 1rem;
+            grid-gap: 0rem;
             grid-template-columns: 1fr;
 
             .c-portfolio-list {
