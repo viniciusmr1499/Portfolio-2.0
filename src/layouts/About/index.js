@@ -1,14 +1,24 @@
-import React from 'react';
-import { FaBook, FaCoffee, FaDev, FaDownload, FaGamepad, FaJs, FaLinux, FaMoneyBillAlt, FaMusic, FaTheaterMasks } from 'react-icons/fa';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
+import { FaBook, FaCoffee, FaDev, FaDownload, FaGamepad, FaLinux, FaMoneyBillAlt, FaMusic, FaReact, FaTheaterMasks } from 'react-icons/fa';
+import Cv from './../../assets/files/Curriculo.pdf';
 import HeaderSection from './../../reusable/HeaderSection';
 import { AboutSection, ListDetails, ListMyInterests } from './styles';
 
+
 export default function About() {
+    useEffect(() => {
+        Aos.init({
+            duration: 2000,
+        })
+    }, []);
+
     return (
         <AboutSection id="about">
             <HeaderSection content="Sobre mim" icon={<FaDev size={34} />} />
 
-            <p className="description">
+            <p className="description" data-aos="fade-up">
                 <span>Olá, eu me chamo Marcos Vinicius.</span> Sou um entusiasta da tecnologia,
                 busco sempre conhecimento através de cursos, artigos, livros e vídeos.
                 Meu Objetivo é está inserido em projetos de grande porte, poder colaborar com toda a equipe
@@ -18,8 +28,11 @@ export default function About() {
                 Meus principais valores são, ética, foco no resultado, família e perenidade.
             </p>
 
-            <h2 className="title__details">Detalhes Pessoais</h2>
-            <ListDetails>
+            <h2 className="title__details" data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="200"
+                data-aos-offset="0">Detalhes Pessoais</h2>
+            <ListDetails data-aos="fade-up">
                 <li>
                     <h4 className="detail__title">Data de <br /> Nascimento</h4>
                     <p className="response_details">
@@ -53,8 +66,11 @@ export default function About() {
 
             </ListDetails>
 
-            <h2 className="title__myInterests">Meus interesses</h2>
-            <ListMyInterests>
+            <h2 className="title__myInterests" data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="200"
+                data-aos-offset="0">Meus interesses</h2>
+            <ListMyInterests data-aos="fade-up">
                 <li className="interests__item">
                     <FaGamepad size={30} />
                     <span>Jogos</span>
@@ -80,8 +96,8 @@ export default function About() {
                     <span>Café</span>
                 </li>
                 <li className="interests__item">
-                    <FaJs size={30} />
-                    <span>JS</span>
+                    <FaReact size={30} />
+                    <span>React JS</span>
                 </li>
                 <li className="interests__item">
                     <FaMoneyBillAlt size={30} />
@@ -90,7 +106,7 @@ export default function About() {
             </ListMyInterests>
 
             <div className="curriculum">
-                <a href="#" className="cv">
+                <a href={Cv} target="_blank" className="cv">
                     Baixar CV
                     <FaDownload size={16} />
                 </a>

@@ -23,6 +23,7 @@ export const Container = styled.section`
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 3rem;
 
         .c-portfolio__link:hover:before, .c-portfolio__link:focus:before, .c-portfolio__link:active:before {
             -webkit-transform: scaleX(1);
@@ -210,7 +211,7 @@ const visible = keyframes`
 export const PortfolioCard = styled.div`
     position: relative;
     width: 350px;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     animation: ${visible} .5s;
 	-webkit-backface-visibility: visible;
 	backface-visibility: visible;

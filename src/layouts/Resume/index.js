@@ -1,9 +1,18 @@
-import React from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 import { FaCheck, FaHardHat, FaUserCheck, FaUserGraduate } from 'react-icons/fa';
 import HeaderSection from '../../reusable/HeaderSection';
 import { Container, Education, WorkExperience } from './styles';
 
 export default function Resume() {
+    useEffect(() => {
+        Aos.init({
+            duration: 2000,
+        })
+    }, []);
+
+
     return (
         <>
             <Container id="resume">
@@ -12,7 +21,7 @@ export default function Resume() {
                 <Education>
                     <h2 className="c-resume__title">Educação</h2>
                     <div className="wrapper">
-                        <div className="c-card-education">
+                        <div className="c-card-education" data-aos="fade-up" >
                             <div className="c-education">
                                 <h3 className="c-education__title">
                                     Análise <span style={{ textTransform: 'lowercase' }}>e</span> Desenvolvimento de sistemas
@@ -28,7 +37,7 @@ export default function Resume() {
                             </div>
                         </div>
 
-                        <div className="c-card-education">
+                        <div className="c-card-education" data-aos="fade-up" >
                             <div className="c-education">
                                 <h3 className="c-education__title">
                                     JavaScript<br />
@@ -47,7 +56,7 @@ export default function Resume() {
                             </div>
                         </div>
 
-                        <div className="c-card-education">
+                        <div className="c-card-education" data-aos="fade-up" >
                             <div className="c-education">
                                 <h3 className="c-education__title">
                                     PHP - MVC <br />
@@ -72,7 +81,7 @@ export default function Resume() {
                 <WorkExperience>
                     <h2 className="c-resume__title">Experiência de trabalho</h2>
                     <div className="wrapper">
-                        <div className="c-card-work">
+                        <div className="c-card-work" data-aos="fade-up" >
                             <div className="c-work">
                                 <h3 className="c-work__title">
                                     FortBrasil - Instituição financeira
@@ -91,7 +100,7 @@ export default function Resume() {
                             </div>
                         </div>
 
-                        <div className="c-card-work">
+                        <div className="c-card-work" data-aos="fade-up" >
                             <div className="c-work">
                                 <h3 className="c-work__title">
                                     Aeris Energy <br />
@@ -110,7 +119,7 @@ export default function Resume() {
                             </div>
                         </div>
 
-                        <div className="c-card-work">
+                        <div className="c-card-work" data-aos="fade-up" >
                             <div className="c-work">
                                 <h3 className="c-work__title">
                                     Leão Matos Advogados Associados <br />

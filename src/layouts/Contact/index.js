@@ -4,7 +4,6 @@ import HeaderSection from './../../reusable/HeaderSection';
 import Form from './Form';
 import { Container } from './styles';
 
-
 export default function Contact() {
     return (
         <>

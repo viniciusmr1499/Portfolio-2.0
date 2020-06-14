@@ -1,4 +1,6 @@
-import React from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 import { FaStar } from 'react-icons/fa';
 import HeaderSection from '../../reusable/HeaderSection';
 import { Container, GroupSkills, HandleProgress, ProfessionalSkills, ProgressBar } from './styles';
@@ -39,12 +41,18 @@ export default function Skils() {
 
     } = percentage;
 
+    useEffect(() => {
+        Aos.init({
+            duration: 2000,
+        });
+    }, []);
+
     return (
         <Container id="skills">
             <HeaderSection content="Habilidades" icon={<FaStar size={34} />} />
 
             <div className="c-skills__wrapper">
-                <GroupSkills>
+                <GroupSkills data-aos="fade-up">
                     <h2>Habilidades Técnicas</h2>
 
                     <ul className="c-listSkills">
@@ -120,7 +128,7 @@ export default function Skils() {
                     </ul>
                 </GroupSkills>
 
-                <ProfessionalSkills>
+                <ProfessionalSkills data-aos="fade-up">
                     <h2>Habilidades Profissionais</h2>
 
                     <ul className="c-listSkillsProfessional">

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import bg from './../../assets/contact_bg.png';
+import bg from './../../assets/images/site/contact_bg.png';
 
 export const Container = styled.section`
     position: relative;

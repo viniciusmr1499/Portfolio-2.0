@@ -1,5 +1,5 @@
 import styled, { css, keyframes } from 'styled-components';
-import banner from '../../assets/bg-banner.jpg';
+import banner from '../../assets/images/site/bg-banner.jpg';
 ;
 
 export const Header = styled.header`

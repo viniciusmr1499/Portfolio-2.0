@@ -65,6 +65,7 @@ export const AboutSection = styled.section`
         a.cv:hover, a.cv:focus, a.cv:active {
             color: #FFF;
             border-color: #1CB698;
+            cursor: pointer;
         }
 
         a.cv:hover:before, a.cv:focus:before, a.cv:active:before {

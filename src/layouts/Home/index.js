@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { FaConnectdevelop } from 'react-icons/fa';
-import Avatar from './../../assets/Me.jpg';
+import Avatar from './../../assets/images/site/Me.jpg';
 import MyCard from './components/MyCard';
 import NavList from './components/NavList';
 import { Container, Header, NavBar, Toggle } from './styles';
-
 
 export default function Home() {
     const [on, setOn] = useState(false);
@@ -41,7 +40,7 @@ export default function Home() {
                 </NavBar>
             </Header>
 
-            <Container id="home">
+            <Container>
                 <MyCard title="Marcos Vinicius" subTitle="Software Developer" avatar={Avatar} />
             </Container>
         </>
