@@ -5,8 +5,8 @@ import { FaBriefcase, FaSearch } from 'react-icons/fa';
 import academy from './../../assets/images/academy/img10.png';
 import academyTwo from './../../assets/images/academy/teste3.png';
 import personal from './../../assets/images/personal/img.png';
-import work from './../../assets/images/work/img10.jpg';
-import workTwo from './../../assets/images/work/img9.png';
+import work from './../../assets/images/work/fortbrasil-mastercard.png';
+import workTwo from './../../assets/images/work/SGaeris.png';
 import HeaderSection from './../../reusable/HeaderSection';
 import { Container, PortfolioCard } from './styles';
 
@@ -17,7 +17,7 @@ export default function Portfolio() {
 
     return (
         <>
-            <Container id="portfolio" data-aos="fade-up">
+            <Container id="portfolio">
                 <HeaderSection content="Portfólio" icon={<FaBriefcase size={34} color="#fff" />} />
                 <div className="c-portfolio">
                     <div className="c-portfolio-list" data-aos="fade-up">

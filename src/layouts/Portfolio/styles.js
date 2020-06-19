@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 export const Container = styled.section`
     position: relative;
@@ -197,22 +197,10 @@ export const Container = styled.section`
 
 `;
 
-
-const visible = keyframes`
-    0% {
-        opacity: 0;
-        transform: scale3d(.3, .3, .3)
-    }
-    50% {
-        opacity: 1;
-    }
-`;
-
 export const PortfolioCard = styled.div`
     position: relative;
     width: 350px;
     /* margin-top: 3rem; */
-    animation: ${visible} .5s;
 	-webkit-backface-visibility: visible;
 	backface-visibility: visible;
 	margin-bottom: 30px;
