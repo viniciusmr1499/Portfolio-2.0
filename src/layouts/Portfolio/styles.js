@@ -200,7 +200,7 @@ export const Container = styled.section`
 export const PortfolioCard = styled.div`
     position: relative;
     width: 350px;
-    /* margin-top: 3rem; */
+    height: 312px;
 	-webkit-backface-visibility: visible;
 	backface-visibility: visible;
 	margin-bottom: 30px;
