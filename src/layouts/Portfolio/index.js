@@ -18,21 +18,37 @@ export default function Portfolio() {
     });
 
     const fortbrasil = [
-        work,
-        workTwo
+        {
+            original: work,
+            thumbnail: work
+        },
+        {
+            original: workTwo,
+            thumbnail: workTwo,
+        }
     ];
 
     const fateneBarbearia = [
-        academy,
+        {
+            original: academy,
+            thumbnail: academy
+        }
     ];
 
     const fateneJ7 = [
-        academyTwo
+        {
+            original: academyTwo,
+            thumbnail: academyTwo
+        }
     ];
 
     const aeris = [
         workTwo,
     ];
+
+    function hello() {
+        alert('ola');
+    }
 
     return (
         <>
@@ -67,15 +83,33 @@ export default function Portfolio() {
                         />}
                     />
 
-                    {/* <Card
-                        img={academy}
-                        altImg="Sistema de Barbearia"
-                        icon={<FaSearch size={24} color="#fff" />}
-                        title="Sistema de Barbearia"
-                        subTitle="Fatene"
+                    <Modal
+                        Card={<Card
+                            img={academy}
+                            altImg="Sistema de Barbearia"
+                            icon={<FaSearch size={24} color="#fff" />}
+                            title="Sistema de Barbearia"
+                            subTitle="Fatene"
+                        />}
+                        Slide={<Slide
+                            images={fateneBarbearia}
+                        />}
                     />
 
-                    <Card
+                    <Modal
+                        Card={<Card
+                            img={academyTwo}
+                            altImg="J7 e-Shop"
+                            icon={<FaSearch size={24} color="#fff" />}
+                            title="E-commerce J7 Informática"
+                            subTitle="Fatene"
+                        />}
+                        Slide={<Slide
+                            images={fateneJ7}
+                        />}
+                    />
+
+                    {/* <Card
                         img={academyTwo}
                         altImg="J7 e-Shop"
                         icon={<FaSearch size={24} color="#fff" />}
@@ -97,7 +131,7 @@ export default function Portfolio() {
                         icon={<FaSearch size={24} color="#fff" />}
                         title="SGA - Sistema Gestão Aeris"
                         subTitle="Sistema de Estoque"
-                    /> */}
+                    />  */}
 
                 </div>
 

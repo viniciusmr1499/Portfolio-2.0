@@ -5,7 +5,7 @@ import FancyModalButton from './FancyModalButton';
 
 
 const Container = styled.div`
-    z-index: 1001;
+    z-index: 10001;
 `;
 
 export default function Modal({ Slide, Card }) {
