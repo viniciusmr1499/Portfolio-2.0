@@ -4,16 +4,35 @@ import React, { useEffect } from 'react';
 import { FaBriefcase, FaSearch } from 'react-icons/fa';
 import academy from './../../assets/images/academy/img9.jpg';
 import academyTwo from './../../assets/images/academy/teste3.png';
-import personal from './../../assets/images/personal/img.png';
 import work from './../../assets/images/work/fortbrasil-mastercard.svg';
 import workTwo from './../../assets/images/work/SGaeris.png';
 import HeaderSection from './../../reusable/HeaderSection';
-import { Container, PortfolioCard } from './styles';
+import Card from './components/Card';
+import Modal from './components/Modal';
+import Slide from './components/Slide';
+import { Container } from './styles';
 
 export default function Portfolio() {
     useEffect(() => {
         Aos.init({ dutation: 2000 });
     });
+
+    const fortbrasil = [
+        work,
+        workTwo
+    ];
+
+    const fateneBarbearia = [
+        academy,
+    ];
+
+    const fateneJ7 = [
+        academyTwo
+    ];
+
+    const aeris = [
+        workTwo,
+    ];
 
     return (
         <>
@@ -35,55 +54,50 @@ export default function Portfolio() {
                         </a>
                     </div>
 
-                    <PortfolioCard data-aos="zoom-in-up">
-                        <img alt="" src={work} />
-                        <figcaption>
-                            <FaSearch color="#fff" size={24} />
-                            <h5 className="title">Página de adesão Mastercard</h5>
-                            <span className="sub-title">Fortbrasil</span>
-                            <a href="#"></a>
-                        </figcaption>
-                    </PortfolioCard>
+                    <Modal
+                        Card={<Card
+                            img={work}
+                            altImg="Fortbrasil Mastercard"
+                            icon={<FaSearch size={24} color="#fff" />}
+                            title="Página de adesão Mastercard"
+                            subTitle="Fortbrasil"
+                        />}
+                        Slide={<Slide
+                            images={fortbrasil}
+                        />}
+                    />
 
-                    <PortfolioCard data-aos="zoom-in-up">
-                        <img alt="" src={academy} />
-                        <figcaption>
-                            <FaSearch color="#fff" size={24} />
-                            <h5 className="title">Sistema de Barbearia</h5>
-                            <span className="sub-title">Fatene</span>
-                            <a href="#"></a>
-                        </figcaption>
-                    </PortfolioCard>
+                    {/* <Card
+                        img={academy}
+                        altImg="Sistema de Barbearia"
+                        icon={<FaSearch size={24} color="#fff" />}
+                        title="Sistema de Barbearia"
+                        subTitle="Fatene"
+                    />
 
-                    <PortfolioCard data-aos="zoom-in-up">
-                        <img alt="" src={academyTwo} />
-                        <figcaption>
-                            <FaSearch color="#fff" size={24} />
-                            <h5 className="title">E-commerce J7 e-Shop</h5>
-                            <span className="sub-title">Fatene</span>
-                            <a href="#"></a>
-                        </figcaption>
-                    </PortfolioCard>
+                    <Card
+                        img={academyTwo}
+                        altImg="J7 e-Shop"
+                        icon={<FaSearch size={24} color="#fff" />}
+                        title="E-commerce J7 Informática"
+                        subTitle="Fatene"
+                    />
 
-                    <PortfolioCard data-aos="zoom-in-up">
-                        <img alt="" src={personal} />
-                        <figcaption>
-                            <FaSearch color="#fff" size={24} />
-                            <h5 className="title">Portfólio</h5>
-                            <span className="sub-title">Versão 1.0</span>
-                            <a href="#"></a>
-                        </figcaption>
-                    </PortfolioCard>
+                    <Card
+                        img={personal}
+                        altImg="Meu portfólio"
+                        icon={<FaSearch size={24} color="#fff" />}
+                        title="Portfólio"
+                        subTitle="Versão 1.0"
+                    />
 
-                    <PortfolioCard data-aos="zoom-in-up">
-                        <img alt="" src={workTwo} />
-                        <figcaption>
-                            <FaSearch color="#fff" size={24} />
-                            <h5 className="title">SGA - Sistema Gestão Aeris</h5>
-                            <span className="sub-title">Sistema de Estoque</span>
-                            <a href="#"></a>
-                        </figcaption>
-                    </PortfolioCard>
+                    <Card
+                        img={workTwo}
+                        altImg="Sistema SGA"
+                        icon={<FaSearch size={24} color="#fff" />}
+                        title="SGA - Sistema Gestão Aeris"
+                        subTitle="Sistema de Estoque"
+                    /> */}
 
                 </div>
 
