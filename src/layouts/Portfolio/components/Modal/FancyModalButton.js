@@ -39,7 +39,7 @@ export default function ModalButton({ Slide, Card }) {
 
     return (
         <>
-            <div style={{ zIndex: 0 }} onClick={toggleModal}>{Card}</div>
+            <div className="test" onClick={toggleModal}>{Card}</div>
             <StyledModal
                 isOpen={isOpen}
                 onBackgroundClick={toggleModal}

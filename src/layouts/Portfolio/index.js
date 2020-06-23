@@ -6,6 +6,7 @@ import academy from './../../assets/images/academy/img9.jpg';
 import academyTwo from './../../assets/images/academy/teste3.png';
 import work from './../../assets/images/work/fortbrasil-mastercard.svg';
 import workTwo from './../../assets/images/work/SGaeris.png';
+import personal from './../../assets/images/personal/img.png';
 import HeaderSection from './../../reusable/HeaderSection';
 import Card from './components/Card';
 import Modal from './components/Modal';
@@ -43,12 +44,19 @@ export default function Portfolio() {
     ];
 
     const aeris = [
-        workTwo,
+        {
+            original: workTwo,
+            thumbnail: workTwo
+        }
     ];
 
-    function hello() {
-        alert('ola');
-    }
+    const me = [
+        {
+            original: personal,
+            thumbnail: personal
+        }
+    ];
+
 
     return (
         <>
@@ -71,16 +79,14 @@ export default function Portfolio() {
                     </div>
 
                     <Modal
-                        Card={<Card
+                        Card={<Card className="test"
                             img={work}
                             altImg="Fortbrasil Mastercard"
                             icon={<FaSearch size={24} color="#fff" />}
                             title="Página de adesão Mastercard"
                             subTitle="Fortbrasil"
                         />}
-                        Slide={<Slide
-                            images={fortbrasil}
-                        />}
+                        Slide={<Slide images={fortbrasil}/>}
                     />
 
                     <Modal
@@ -91,9 +97,7 @@ export default function Portfolio() {
                             title="Sistema de Barbearia"
                             subTitle="Fatene"
                         />}
-                        Slide={<Slide
-                            images={fateneBarbearia}
-                        />}
+                        Slide={<Slide images={fateneBarbearia}/>}
                     />
 
                     <Modal
@@ -104,34 +108,30 @@ export default function Portfolio() {
                             title="E-commerce J7 Informática"
                             subTitle="Fatene"
                         />}
-                        Slide={<Slide
-                            images={fateneJ7}
-                        />}
+                        Slide={<Slide images={fateneJ7}/>}
                     />
 
-                    {/* <Card
-                        img={academyTwo}
-                        altImg="J7 e-Shop"
-                        icon={<FaSearch size={24} color="#fff" />}
-                        title="E-commerce J7 Informática"
-                        subTitle="Fatene"
-                    />
-
-                    <Card
+                    <Modal
+                        Card={<Card
                         img={personal}
                         altImg="Meu portfólio"
                         icon={<FaSearch size={24} color="#fff" />}
                         title="Portfólio"
                         subTitle="Versão 1.0"
+                    />}
+                        Slide={<Slide images={me}/>}
                     />
 
-                    <Card
-                        img={workTwo}
-                        altImg="Sistema SGA"
-                        icon={<FaSearch size={24} color="#fff" />}
-                        title="SGA - Sistema Gestão Aeris"
-                        subTitle="Sistema de Estoque"
-                    />  */}
+                    <Modal
+                        Card={<Card
+                            img={workTwo}
+                            altImg="Sistema SGA"
+                            icon={<FaSearch size={24} color="#fff" />}
+                            title="SGA - Sistema Gestão Aeris"
+                            subTitle="Sistema de Estoque"
+                        />}
+                        Slide={<Slide images={aeris}/>}
+                    />
 
                 </div>
 
