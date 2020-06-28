@@ -20,7 +20,7 @@ export default function About() {
 
             <p className="description" data-aos="fade-up">
                 <span>Olá, eu me chamo Marcos Vinicius.</span> Sou um entusiasta da tecnologia, estou 
-                sempre em busca de novos conhecimento. Meu Objetivo é está inserido em projetos de 
+                sempre em busca de novos conhecimentos. Meu Objetivo é está inserido em projetos de 
                 grande porte, poder colaborar com toda a equipe de desenvolvimento, compartilhar conhecimentos, 
                 adquirir experiência e principalmente poder impactar positivamente na vida das pessoas.
                 Sou  responsável, companheiro, simpático e bem flexível, gosto de ir ao cinema, praia, viajar e conhecer pessoas novas.
