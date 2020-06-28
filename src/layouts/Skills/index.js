@@ -61,7 +61,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={javascript} className="progress__percentage">
-                                    <span className="percentage">{javascript}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -71,7 +71,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={htmlCss} className="progress__percentage">
-                                    <span className="percentage">{htmlCss}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -81,7 +81,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={php} className="progress__percentage">
-                                    <span className="percentage">{php}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -91,7 +91,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={reactJs} className="progress__percentage">
-                                    <span className="percentage">{reactJs}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -101,7 +101,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={bootstrap} className="progress__percentage">
-                                    <span className="percentage">{bootstrap}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -111,7 +111,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={git} className="progress__percentage">
-                                    <span className="percentage">{git}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -121,7 +121,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={less} className="progress__percentage">
-                                    <span className="percentage">{less}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -137,7 +137,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={communication} className="progress__percentage">
-                                    <span className="percentage">{communication}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -147,7 +147,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={teamwork} className="progress__percentage">
-                                    <span className="percentage">{teamwork}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -157,7 +157,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={creativity} className="progress__percentage">
-                                    <span className="percentage">{creativity}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -167,7 +167,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={dedication} className="progress__percentage">
-                                    <span className="percentage">{dedication}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -177,7 +177,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={tag} className="progress__percentage">
-                                    <span className="percentage">{tag}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -187,7 +187,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={proactivity} className="progress__percentage">
-                                    <span className="percentage">{proactivity}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>
@@ -197,7 +197,7 @@ export default function Skils() {
 
                             <ProgressBar>
                                 <HandleProgress percentage={competitiveness} className="progress__percentage">
-                                    <span className="percentage">{competitiveness}%</span>
+                                    <span className="percentage"></span>
                                 </HandleProgress>
                             </ProgressBar>
                         </li>

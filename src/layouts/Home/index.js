@@ -14,11 +14,11 @@ export default function Home() {
 
         if (collapse && !collapseToggled) {
             setOn(true);
+
             collapse.classList.add('toggled');
-            console.log('opa')
         } else {
             setOn(false);
-            console.log('nao opa')
+            
             collapse.classList.remove('toggled');
         }
     }

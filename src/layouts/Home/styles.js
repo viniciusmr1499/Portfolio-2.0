@@ -5,7 +5,7 @@ import banner from '../../assets/images/site/bg-banner.jpg';
 export const Header = styled.header`
     position: fixed;
     top:0;
-    z-index: 1001;
+    z-index: 2;
     height: 70px;
     width: 100%;
     background: #1e2326;
