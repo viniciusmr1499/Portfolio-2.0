@@ -9,7 +9,7 @@ export default function Slide({ images }) {
         <div className="test">
             <ImageGallery items={figures}
                 showFullscreenButton={true}
-                showThumbnails={true}
+                showThumbnails={false}
                 showNav={true}
                 autoPlay={true}
                 slideDuration={450}
