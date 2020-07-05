@@ -16,7 +16,7 @@ export default function Contact() {
                     <input className="form__control" type="text" placeholder="Seu nome" />
                     <input className="form__control" type="tel" placeholder="Número de telefone" />
                     <input className="form__control" type="email" placeholder="Endereço de e-mail" />
-                    <input className="form__control" type="text" placeholder="Sujeito" />
+                    <input className="form__control" type="text" placeholder="Assunto" />
                     <textarea className="form__control--textarea" placeholder="Mensagem" cols="30" rows="10"></textarea>
                     <button type="submit" className="btn-form">
                         Enviar Mensagem
