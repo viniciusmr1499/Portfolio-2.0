@@ -197,16 +197,16 @@ export default function Portfolio() {
                 <HeaderSection content="Portfólio" icon={<FaBriefcase size={34} color="#fff" />} />
                 <div className="c-portfolio">
                     <div className="c-portfolio-list" data-aos="fade-up">
-                        <a href="/all" className="c-portfolio__link c-portfolio__link--active">
+                        <a href="#" className="c-portfolio__link c-portfolio__link--active">
                             Todas as categorias
                         </a>
-                        <a href="/work" className="c-portfolio__link">
+                        <a href="#" className="c-portfolio__link">
                             Trabalho
                         </a>
-                        <a href="/academy" className="c-portfolio__link">
+                        <a href="#" className="c-portfolio__link">
                             Acadêmico
                         </a>
-                        <a href="/personal" className="c-portfolio__link">
+                        <a href="#" className="c-portfolio__link">
                             Pessoal
                         </a>
                     </div>
