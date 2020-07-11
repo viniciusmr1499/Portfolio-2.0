@@ -2,7 +2,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-+ [React](https://pt-br.reactjs.org/)
++ [React](https://pt-b.reactjs.org/)
 + [Node.js](https://nodejs.org/en/)
 + [Npm](https://www.npmjs.com/get-npm) / [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
@@ -16,16 +16,16 @@ Estilos:
 [Visitar o site](http://viniciusmr1499.github.io/Portfolio-2.0)
 
 ### 💻 Projeto
-<br>Portfólio</b> É uma forma de apresentar para as pessoas o profissional que me tornei e também demonstrar de forma prática meus conhecimentos.
+Portfólio</b> É uma forma de apresentar para as pessoas o profissional que me tornei e também demonstrar de forma prática meus conhecimentos.
 
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-<br>[Git](https://git-scm.com)</br>
-<br>[Node.js](https://nodejs.org/en/)</br>
-<br>[Npm](https://www.npmjs.com/get-npm)<br>
-<br>[Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)<br>
-Editor de texto de sua preferência. Eu indico o <br>[VSCode](https://code.visualstudio.com/)</br>
+<b>[Git](https://git-scm.com)</b>
+<b>[Node.js](https://nodejs.org/en/)</b>
+<b>[Npm](https://www.npmjs.com/get-npm)<b>
+<b>[Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)<b>
+Editor de texto de sua preferência. Eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
 
 ### 🧭 Rodando a aplicação
 
