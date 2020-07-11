@@ -8,13 +8,12 @@ const Container = styled.div`
     z-index: auto;
 `;
 
-export default function Modal({ Slide, Card }) {
+export default function Modal({ Slide, Card}) {
     return (
         <Container>
             <ModalProvider>
                 <FancyModalButton Card={Card} Slide={Slide} />
             </ModalProvider>
         </Container>
-
     );
 }
