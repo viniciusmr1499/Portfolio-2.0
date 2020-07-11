@@ -7,9 +7,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 + [Npm](https://www.npmjs.com/get-npm) / [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
 Estilos:
-    + [EditorConfig](https://editorconfig.org/)
-    + [ESLint](https://eslint.org/)
-    + [Prettier](https://prettier.io/)
++ [EditorConfig](https://editorconfig.org/)
++ [ESLint](https://eslint.org/)
++ [Prettier](https://prettier.io/)
 
 ### 💻 Demo Web
 
