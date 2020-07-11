@@ -27,7 +27,7 @@ export default function Home() {
         <>
             <Header>
                 <NavBar>
-                    <a href="/" className="logo">
+                    <a href="/Portfolio-2.0" className="logo">
                         Vinícius
                         <FaConnectdevelop size={34} />
                     </a>
