@@ -48,7 +48,7 @@ $ npm start ou yarn start
 
 ### :mortar_board: Quem ministrou?
 
-O Projeto 'Portfólio-2.0 foi idealizado e construído por [Marcos Vinícius](https://github.com/viniciusmr1499)
+O Projeto "Portfólio-2.0" foi idealizado e construído por [Marcos Vinícius](https://github.com/viniciusmr1499)
 
 
 ### :memo: Licença
