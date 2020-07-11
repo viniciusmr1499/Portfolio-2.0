@@ -22,12 +22,16 @@ Portfólio</b> É uma forma de apresentar para as pessoas o profissional que me 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
 <b>[Git](https://git-scm.com)</b>
-<b>[Node.js](https://nodejs.org/en/)</b>
-<b>[Npm](https://www.npmjs.com/get-npm)<b>
-<b>[Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)<b>
-Editor de texto de sua preferência. Eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
 
-### 🧭 Rodando a aplicação
+<b>[Node.js](https://nodejs.org/en/)</b>
+
+<b>[Npm](https://www.npmjs.com/get-npm)<b>
+
+<b>[Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)<b>
+
+E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
+
+### 🧭 Rodando a aplicação WEB
 
 ```bash
 # Clone este repositório
