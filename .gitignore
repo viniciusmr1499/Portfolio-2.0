@@ -24,3 +24,5 @@ yarn-error.log*
 
 # pdf's
 .pdf
+
+.env
