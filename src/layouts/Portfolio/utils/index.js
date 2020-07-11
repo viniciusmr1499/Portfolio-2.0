@@ -6,6 +6,10 @@ import imgFortbrasilImg3 from '../../../assets/images/work/fortbrasil/img3.png';
 import imgFortbrasilImg4 from '../../../assets/images/work/fortbrasil/img4.png';
 import imgFortbrasilImg5 from '../../../assets/images/work/fortbrasil/img5.png';
 import imgFortbrasilImg6 from '../../../assets/images/work/fortbrasil/img6.png';
+import imgFortbrasilImg7 from '../../../assets/images/work/fortbrasil/img7.png';
+import imgFortbrasilImg8 from '../../../assets/images/work/fortbrasil/img8.png';
+import imgFortbrasilImg9 from '../../../assets/images/work/fortbrasil/img9.png';
+import imgFortbrasilImg10 from '../../../assets/images/work/fortbrasil/img10.png';
 
 // aeris images
 import imgAerisCard from '../../../assets/images/work/aeris/img.png';
@@ -71,6 +75,22 @@ export const modals = [
             {
                 original: imgFortbrasilImg6,
                 thumbnail: imgFortbrasilImg6
+            },
+            {
+                original: imgFortbrasilImg7,
+                thumbnail: imgFortbrasilImg7
+            },
+            {
+                original: imgFortbrasilImg8,
+                thumbnail: imgFortbrasilImg8
+            },
+            {
+                original: imgFortbrasilImg9,
+                thumbnail: imgFortbrasilImg9
+            },
+            {
+                original: imgFortbrasilImg10,
+                thumbnail: imgFortbrasilImg10
             },
         ],
         title: 'Página de adesão Mastercard',
