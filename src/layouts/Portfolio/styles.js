@@ -54,6 +54,10 @@ export const Container = styled.section`
             margin:0 .5rem;
             text-transform: capitalize;
 
+            &:hover {
+                cursor: pointer;
+            }
+
             &:before {
                 content: "";
                 position: absolute;
