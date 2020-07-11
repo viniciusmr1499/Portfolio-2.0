@@ -29,6 +29,7 @@ export const Container = styled.div`
 
             iframe {
                 height: 100%;
+                width: 100%;
             }
         }
     }
