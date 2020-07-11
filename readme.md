@@ -21,13 +21,13 @@ Estilos:
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-+ <b>[Git](https://git-scm.com)</b>
++ [Git](https://git-scm.com)
 
-+ <b>[Node.js](https://nodejs.org/en/)</b>
-+ 
++ [Node.js](https://nodejs.org/en/)
+
 + [Npm](https://www.npmjs.com/get-npm) ou [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
-E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
++ [VSCode](https://code.visualstudio.com/) ou algum outro editor de sua preferência (opcional)
 
 ### 🧭 Rodando a aplicação WEB
 
