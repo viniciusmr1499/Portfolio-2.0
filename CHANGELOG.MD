@@ -1,3 +1,8 @@
+## [v1.0.2] - 2020-07-11
+
+### Changed
+- Atualizando iframe com minha localizacao na secao contato.
+
 ## [v1.0.1] - 2020-07-11
 
 ### Added

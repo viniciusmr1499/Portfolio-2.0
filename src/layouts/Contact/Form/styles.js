@@ -26,6 +26,10 @@ export const Container = styled.div`
         .c-location__google {
             height: 100%;
             position: relative;
+
+            iframe {
+                height: 100%;
+            }
         }
     }
 
