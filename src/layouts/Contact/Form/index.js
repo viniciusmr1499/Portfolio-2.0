@@ -24,9 +24,11 @@ export default function Contact() {
                     </button>
                 </FormContact>
 
+                
+
                 <div className="c-location" data-aos="fade-up" >
                     <div className="c-location__google">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609600091!2d72.7411019849437!3d19.082197841114034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1549273138294" width="100%" height="100%" frameborder="0" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127394.95095174108!2d-38.58898776597533!3d-3.790097876334346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c3f464c783f%3A0x4661c60a0c6b37ca!2sFortaleza%20-%20CE!5e0!3m2!1spt-BR!2sbr!4v1594498556191!5m2!1spt-BR!2sbr" width={600} height={450} frameborder={0} style={{border:0}} allowfullscreen={true} aria-hidden={false} tabindex={0}></iframe>
                         <div className="location-info">
                             <div className="google-info">
                                 <ul className="list">
