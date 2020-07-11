@@ -1,7 +1,7 @@
 ## [v1.0.3] - 2020-07-11
 
-### Changed
-- Atualizando fotos na secao portfolio.
+### Added
+- Adicionado novas fotos na secao portfolio.
 
 ## [v1.0.2] - 2020-07-11
 
